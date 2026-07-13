@@ -51,14 +51,14 @@ export function Hero() {
       ref={ref}
       className="relative flex min-h-svh flex-col justify-between overflow-hidden pt-20"
     >
-      {/* Portrait détouré, centré, derrière le marquee (signature Snellenberg) */}
-      <div className="hero-photo pointer-events-none absolute bottom-0 left-1/2 z-0 h-[52svh] w-[92vw] max-w-[620px] -translate-x-1/2 sm:h-[76svh]">
+      {/* Avatar memoji, centré, derrière le marquee (signature Snellenberg) */}
+      <div className="hero-photo pointer-events-none absolute bottom-6 left-1/2 z-0 h-[46svh] w-[92vw] max-w-[560px] -translate-x-1/2 sm:bottom-10 sm:h-[62svh]">
         <Image
-          src="/luc.png"
-          alt="Luc Baxmann"
+          src="/luc-memoji.png"
+          alt="Luc Baxmann — avatar"
           fill
           priority
-          sizes="(max-width: 640px) 92vw, 620px"
+          sizes="(max-width: 640px) 92vw, 560px"
           className="object-contain object-bottom"
         />
       </div>
