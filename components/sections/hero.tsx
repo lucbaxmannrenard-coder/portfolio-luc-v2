@@ -1,0 +1,116 @@
+"use client";
+
+import * as React from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ArrowDownRight, ArrowUpRight, Globe } from "lucide-react";
+import { useLanguage } from "@/components/language-provider";
+import { links } from "@/lib/i18n";
+
+gsap.registerPlugin(useGSAP);
+
+export function Hero() {
+  const { t } = useLanguage();
+  const ref = React.useRef<HTMLElement>(null);
+
+  useGSAP(
+    () => {
+      const mm = gsap.matchMedia();
+      mm.add("(prefers-reduced-motion: no-preference)", () => {
+        gsap.from(".hero-item", {
+          autoAlpha: 0,
+          y: 30,
+          duration: 0.9,
+          ease: "power3.out",
+          stagger: 0.12,
+          clearProps: "all",
+        });
+        gsap.from(".hero-badge", {
+          xPercent: -105,
+          duration: 0.9,
+          delay: 0.5,
+          ease: "power3.out",
+          clearProps: "transform",
+        });
+      });
+    },
+    { scope: ref }
+  );
+
+  return (
+    <section
+      ref={ref}
+      className="relative flex min-h-svh flex-col justify-between overflow-hidden pt-20"
+    >
+      {/* Badge localisation, accroché au bord gauche (signature Snellenberg) */}
+      <div className="hero-badge absolute left-0 top-[38%] z-10 hidden sm:flex">
+        <div className="flex items-center gap-4 rounded-r-full bg-ink py-3 pl-6 pr-3 text-ink-foreground">
+          <p className="text-sm leading-tight">
+            {t.hero.located[0]}
+            <br />
+            <span className="font-medium">{t.hero.located[1]}</span>
+          </p>
+          <span className="flex size-11 items-center justify-center rounded-full bg-ink-foreground/10">
+            <Globe className="animate-spin-slow size-5" aria-hidden />
+          </span>
+        </div>
+      </div>
+
+      {/* Rôle + dispo + CTA, à droite */}
+      <div className="mx-auto flex w-full max-w-7xl flex-1 items-center justify-end px-6 sm:px-10">
+        <div className="hero-item max-w-md pt-10 sm:pt-0">
+          <ArrowDownRight className="mb-4 size-7 text-muted-foreground" aria-hidden />
+          <h1 className="text-2xl font-normal leading-snug tracking-tight sm:text-3xl">
+            {t.hero.role[0]}
+            <br />
+            {t.hero.role[1]}
+          </h1>
+          <p className="mt-5 flex items-center gap-2 text-sm text-muted-foreground">
+            <span className="relative flex size-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
+              <span className="relative inline-flex size-2 rounded-full bg-primary" />
+            </span>
+            {t.hero.availability}
+          </p>
+          <a
+            href="#contact"
+            className="mt-6 inline-block border-b border-foreground/30 pb-0.5 text-sm transition-colors hover:border-foreground"
+          >
+            {t.hero.cta} ↓
+          </a>
+          <div className="mt-8 flex items-center gap-3">
+            {[
+              { href: links.linkedin, label: "LinkedIn" },
+              { href: links.upwork, label: "Upwork" },
+            ].map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 rounded-full border border-foreground/15 px-4 py-1.5 text-xs text-foreground/70 transition-colors hover:border-foreground/40 hover:text-foreground"
+              >
+                {item.label}
+                <ArrowUpRight className="size-3" aria-hidden />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Nom géant en marquee */}
+      <div className="hero-item overflow-hidden pb-2" aria-hidden>
+        <div className="animate-marquee flex w-max whitespace-nowrap">
+          {[0, 1].map((i) => (
+            <span
+              key={i}
+              className="pr-8 text-[17vw] font-medium leading-none tracking-tight sm:text-[12vw]"
+            >
+              Luc Baxmann&nbsp;—&nbsp;
+            </span>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
