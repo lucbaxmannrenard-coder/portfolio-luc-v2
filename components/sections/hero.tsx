@@ -3,9 +3,9 @@
 import * as React from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ArrowDownRight, ArrowUpRight, Globe } from "lucide-react";
+import { ArrowDownRight, Globe } from "lucide-react";
 import { useLanguage } from "@/components/language-provider";
-import { links } from "@/lib/i18n";
+import { SocialLinks } from "@/components/social-icons";
 
 gsap.registerPlugin(useGSAP);
 
@@ -78,23 +78,7 @@ export function Hero() {
           >
             {t.hero.cta} ↓
           </a>
-          <div className="mt-8 flex items-center gap-3">
-            {[
-              { href: links.linkedin, label: "LinkedIn" },
-              { href: links.upwork, label: "Upwork" },
-            ].map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 rounded-full border border-foreground/15 px-4 py-1.5 text-xs text-foreground/70 transition-colors hover:border-foreground/40 hover:text-foreground"
-              >
-                {item.label}
-                <ArrowUpRight className="size-3" aria-hidden />
-              </a>
-            ))}
-          </div>
+          <SocialLinks className="mt-8" />
         </div>
       </div>
 

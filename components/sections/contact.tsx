@@ -1,8 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { Magnetic } from "@/components/magnetic";
+import { SocialLinks } from "@/components/social-icons";
 import { Reveal } from "@/components/reveal";
 import { useLanguage } from "@/components/language-provider";
 import { links } from "@/lib/i18n";
@@ -215,22 +216,7 @@ export function Contact() {
             >
               {NOTIFY_EMAIL}
             </a>
-            {[
-              { href: links.linkedin, label: "LinkedIn" },
-              { href: links.upwork, label: "Upwork" },
-              { href: links.github, label: "GitHub" },
-            ].map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-fit items-center gap-1.5 text-sm text-ink-muted transition-colors hover:text-ink-foreground"
-              >
-                {item.label}
-                <ArrowUpRight className="size-3.5" aria-hidden />
-              </a>
-            ))}
+            <SocialLinks onDark className="mt-2" />
           </div>
         </Reveal>
 
