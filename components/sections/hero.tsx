@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ArrowDownRight, Globe } from "lucide-react";
@@ -32,6 +33,14 @@ export function Hero() {
           ease: "power3.out",
           clearProps: "transform",
         });
+        gsap.from(".hero-photo", {
+          autoAlpha: 0,
+          y: 50,
+          duration: 1.1,
+          delay: 0.15,
+          ease: "power3.out",
+          clearProps: "all",
+        });
       });
     },
     { scope: ref }
@@ -42,6 +51,18 @@ export function Hero() {
       ref={ref}
       className="relative flex min-h-svh flex-col justify-between overflow-hidden pt-20"
     >
+      {/* Portrait détouré, centré, derrière le marquee (signature Snellenberg) */}
+      <div className="hero-photo pointer-events-none absolute bottom-0 left-1/2 z-0 h-[52svh] w-[92vw] max-w-[620px] -translate-x-1/2 sm:h-[76svh]">
+        <Image
+          src="/luc.png"
+          alt="Luc Baxmann"
+          fill
+          priority
+          sizes="(max-width: 640px) 92vw, 620px"
+          className="object-contain object-bottom"
+        />
+      </div>
+
       {/* Badge localisation, accroché au bord gauche (signature Snellenberg) */}
       <div className="hero-badge absolute left-0 top-[38%] z-10 hidden sm:flex">
         <div className="flex items-center gap-4 rounded-r-full bg-ink py-3 pl-6 pr-3 text-ink-foreground">
@@ -57,8 +78,8 @@ export function Hero() {
       </div>
 
       {/* Rôle + dispo + CTA, à droite */}
-      <div className="mx-auto flex w-full max-w-7xl flex-1 items-center justify-end px-6 sm:px-10">
-        <div className="hero-item max-w-md pt-10 sm:pt-0">
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 items-start justify-end px-6 sm:items-center sm:px-10">
+        <div className="hero-item max-w-md pt-6 sm:pt-0">
           <ArrowDownRight className="mb-4 size-7 text-muted-foreground" aria-hidden />
           <h1 className="text-2xl font-normal leading-snug tracking-tight sm:text-3xl">
             {t.hero.role[0]}
@@ -83,7 +104,7 @@ export function Hero() {
       </div>
 
       {/* Nom géant en marquee */}
-      <div className="hero-item overflow-hidden pb-2" aria-hidden>
+      <div className="hero-item relative z-10 overflow-hidden pb-2" aria-hidden>
         <div className="animate-marquee flex w-max whitespace-nowrap">
           {[0, 1].map((i) => (
             <span
