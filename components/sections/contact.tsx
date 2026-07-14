@@ -12,6 +12,9 @@ const SUPABASE_URL = "https://jahiessgxbsgrrtkleqd.supabase.co";
 // Clé publishable : exposable côté client, la table est en RLS insert-only.
 const SUPABASE_KEY = "sb_publishable_wzzRDsYs4df_vVdZcF7YcA_1BEIa8BY";
 const NOTIFY_EMAIL = links.email;
+// Web3Forms : clé d'accès publique par design (liée à la boîte KEDGE),
+// n'accepte que les appels côté navigateur.
+const WEB3FORMS_KEY = "6b3addc7-1050-4e42-85c8-ac8fa5f678c3";
 
 type Status = "idle" | "sending" | "success" | "error";
 
@@ -69,20 +72,24 @@ export function Contact() {
       if (!r.ok) throw new Error(`supabase ${r.status}`);
     });
 
-    const notify = fetch(`https://formsubmit.co/ajax/${NOTIFY_EMAIL}`, {
+    const notify = fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify({
-        _subject: `Portfolio — new contact request from ${data.name}`,
-        Name: data.name,
-        Email: data.email,
-        Company: data.company || "—",
-        "Project type": data.project_type,
-        Message: data.message,
+        access_key: WEB3FORMS_KEY,
+        subject: `Portfolio — nouvelle demande de contact de ${data.name}`,
+        from_name: "Portfolio Luc Baxmann",
+        name: data.name,
+        email: data.email,
+        company: data.company || "—",
+        project_type: data.project_type,
+        message: data.message,
       }),
-    }).then((r) => {
-      if (!r.ok) throw new Error(`formsubmit ${r.status}`);
-    });
+    })
+      .then((r) => r.json())
+      .then((j) => {
+        if (!j.success) throw new Error("web3forms rejected");
+      });
 
     const results = await Promise.allSettled([save, notify]);
     if (results.some((r) => r.status === "fulfilled")) {
