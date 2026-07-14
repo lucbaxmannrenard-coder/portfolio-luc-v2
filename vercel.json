@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.lucbaxmann.com" }],
+      "destination": "https://lucbaxmann.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "portfolio-luc-v2.vercel.app" }],
+      "destination": "https://lucbaxmann.com/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -13,9 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lucbaxmann.com"),
   title: "Luc Baxmann — Web Developer & AI Automation",
   description:
     "Websites that convert. Workflows that run themselves. Fast, conversion-focused websites and custom AI automations for small businesses — Marseille, remote worldwide.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Luc Baxmann — Web Developer & AI Automation",
+    description:
+      "Websites that convert. Workflows that run themselves. Fast, conversion-focused websites and custom AI automations for small businesses.",
+    url: "https://lucbaxmann.com",
+    siteName: "Luc Baxmann",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
