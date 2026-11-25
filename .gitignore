@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# seo : notes internes (le build n'a besoin que de seo/pages, plan.json et fiche-client.json)
+/seo/A-CONFIRMER.md
+/seo/liens/
+/seo/liens.json
+/seo/liens.md

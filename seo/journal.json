@@ -1,0 +1,17 @@
+{
+  "schema": "seo-playbook/journal@1",
+  "entrees": [
+    {
+      "date": "2026-11-25",
+      "page": "/services/automatisation-ia-marseille",
+      "type": "creation",
+      "note": "page écrite et contrôlée (page_lint fichier + URL locale conformes) ; non déployée"
+    },
+    {
+      "date": "2026-11-25",
+      "page": "/services/creation-site-internet-marseille",
+      "type": "creation",
+      "note": "page écrite et contrôlée (page_lint fichier + URL locale conformes) ; non déployée"
+    }
+  ]
+}

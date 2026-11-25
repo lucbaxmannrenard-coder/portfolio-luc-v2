@@ -1,0 +1,216 @@
+{
+  "schema": "seo-playbook/suggestions@1",
+  "date": "2026-11-25",
+  "source": "saisie semi-automatique Google (fr)",
+  "mots_cles": [
+    {
+      "mot_cle": "développeur web freelance marseille",
+      "url": "/",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "création site internet marseille",
+      "url": "/services/creation-site-internet-marseille",
+      "graine": false,
+      "attestee": true,
+      "suggestions": [
+        "création site internet marseille",
+        "agence creation site internet marseille"
+      ]
+    },
+    {
+      "mot_cle": "automatisation ia marseille",
+      "url": "/services/automatisation-ia-marseille",
+      "graine": false,
+      "attestee": true,
+      "suggestions": [
+        "automatisation ia marseille"
+      ]
+    },
+    {
+      "mot_cle": "création site e-commerce marseille",
+      "url": "/services/creation-site-e-commerce-marseille",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "création landing page marseille",
+      "url": "/services/creation-landing-page-marseille",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "crm sur mesure marseille",
+      "url": "/services/crm-mesure-marseille",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "automatisation ia pme marseille",
+      "url": "/services/automatisation-ia-pme-marseille",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "freelance ou agence web",
+      "url": "/freelance-ou-agence-web",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "luc baxmann avis",
+      "url": "/avis",
+      "graine": false,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "développeur web freelance",
+      "url": null,
+      "graine": true,
+      "attestee": true,
+      "suggestions": [
+        "développeur web freelance",
+        "développeur web freelance débutant",
+        "développeur web freelance salaire",
+        "développeur web freelance paris",
+        "developpeur web freelance casablanca",
+        "développeur web freelance toulouse",
+        "développeur web freelance tarif",
+        "développeur web freelance rennes",
+        "developpeur web freelance marrakech",
+        "développeur web freelance lyon"
+      ]
+    },
+    {
+      "mot_cle": "développeur web freelance marseille",
+      "url": null,
+      "graine": true,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "création site internet marseille",
+      "url": null,
+      "graine": true,
+      "attestee": true,
+      "suggestions": [
+        "création site internet marseille",
+        "agence creation site internet marseille"
+      ]
+    },
+    {
+      "mot_cle": "automatisation ia pme",
+      "url": null,
+      "graine": true,
+      "attestee": true,
+      "suggestions": [
+        "automatisation ia pme",
+        "automatisation ia pme suisse"
+      ]
+    },
+    {
+      "mot_cle": "automatisation ia entreprise marseille",
+      "url": null,
+      "graine": true,
+      "attestee": false,
+      "suggestions": []
+    },
+    {
+      "mot_cle": "développeur next.js freelance",
+      "url": null,
+      "graine": true,
+      "attestee": false,
+      "suggestions": []
+    }
+  ],
+  "idees": [
+    {
+      "requete": "agence creation site internet marseille",
+      "intention": "achat",
+      "locale": true,
+      "depuis": "création site internet marseille",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance débutant",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance paris",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "developpeur web freelance casablanca",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance toulouse",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance tarif",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance rennes",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "developpeur web freelance marrakech",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "développeur web freelance lyon",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "développeur web freelance",
+      "nom_propre": false
+    },
+    {
+      "requete": "automatisation ia pme suisse",
+      "intention": "achat",
+      "locale": false,
+      "depuis": "automatisation ia pme",
+      "nom_propre": false
+    }
+  ],
+  "questions": [],
+  "a_juger": [],
+  "erreurs": [],
+  "interrompu": false,
+  "resume": {
+    "mots_cles": 15,
+    "attestes": 2,
+    "idees": 10,
+    "questions": 0
+  }
+}

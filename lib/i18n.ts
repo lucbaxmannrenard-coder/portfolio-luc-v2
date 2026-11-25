@@ -15,6 +15,7 @@ export type Dictionary = {
     located: [string, string];
     availability: string;
     cta: string;
+    photoAlt: string;
   };
   intro: {
     statement: string;
@@ -75,6 +76,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
       located: ["Basé à", "Marseille"],
       availability: "Disponible pour de nouveaux projets",
       cta: "Discutons de votre projet",
+      photoAlt: "Luc Baxmann, développeur web freelance — portrait illustré",
     },
     intro: {
       statement:
@@ -229,10 +231,11 @@ export const dictionaries: Record<Lang, Dictionary> = {
       contact: "Contact",
     },
     hero: {
-      role: ["Freelance Developer", "& AI Automation"],
+      role: ["Freelance Web Developer", "& AI Automation"],
       located: ["Located in", "Marseille"],
       availability: "Available for new projects",
       cta: "Let's talk about your project",
+      photoAlt: "Luc Baxmann, freelance web developer — illustrated portrait",
     },
     intro: {
       statement:
@@ -383,7 +386,7 @@ export const dictionaries: Record<Lang, Dictionary> = {
 
 export const links = {
   email: "luc.baxmannrenard@kedgebs.com",
-  linkedin: "https://www.linkedin.com/in/luc-baxmannrenard-0382aa368/",
+  linkedin: "https://www.linkedin.com/in/lucbaxmannrenard/",
   upwork: "https://www.upwork.com/freelancers/~01f5cdbd2778576923",
   github: "https://github.com/lucbaxmannrenard-coder",
 };

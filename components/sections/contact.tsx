@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 import { Magnetic } from "@/components/magnetic";
 import { SocialLinks } from "@/components/social-icons";
@@ -232,8 +233,19 @@ export function Contact() {
           <p>
             © {new Date().getFullYear()} Luc Baxmann — {t.footer.tagline}
           </p>
-          <p>
-            {t.contact.localTime} : {time} (Marseille)
+          <p className="flex flex-wrap items-center gap-x-5 gap-y-1">
+            {/* Les pages de service sont en français : lien dans le pied de page de /fr uniquement. */}
+            {lang === "fr" && (
+              <Link
+                href="/services"
+                className="underline-offset-4 hover:text-ink-foreground hover:underline"
+              >
+                Tous les services
+              </Link>
+            )}
+            <span>
+              {t.contact.localTime} : {time} (Marseille)
+            </span>
           </p>
         </div>
       </div>

@@ -1,0 +1,151 @@
+{
+  "_aide": "Fiche client de lucbaxmann.com (portfolio de Luc). Source de faits unique pour la rédaction : uniquement ce qui est déjà publié sur le site (lib/i18n.ts) ou confirmé par Luc dans le vault. Rien d'inventé : pas de téléphone, pas d'adresse postale, pas de tarif, pas de chiffre, pas d'avis.",
+  "client": "Luc Baxmann",
+  "marque": [
+    "luc baxmann",
+    "lucbaxmann",
+    "luc baxmann renard",
+    "luc baxmann-renard",
+    "baxmann renard"
+  ],
+  "site": "https://lucbaxmann.com",
+  "metier": {
+    "nom": "développement web",
+    "mot_cle": "développeur web freelance",
+    "naturel": "Développeur web freelance"
+  },
+  "metier_reglemente": "",
+  "portee": "locale",
+  "zone_desservie": "",
+  "ville_principale": "Marseille",
+  "zones": [],
+  "services": [
+    {
+      "nom": "création de site internet",
+      "mot_cle": "création site internet",
+      "naturel": "Création de site internet",
+      "priorite": 1,
+      "zones": false
+    },
+    {
+      "nom": "automatisation IA",
+      "mot_cle": "automatisation ia",
+      "naturel": "Automatisation IA",
+      "priorite": 2,
+      "zones": false
+    },
+    {
+      "nom": "site e-commerce",
+      "mot_cle": "création site e-commerce",
+      "naturel": "Création de site e-commerce",
+      "priorite": 3,
+      "zones": false
+    },
+    {
+      "nom": "landing page",
+      "mot_cle": "création landing page",
+      "naturel": "Création de landing page",
+      "priorite": 4,
+      "zones": false
+    },
+    {
+      "nom": "CRM sur mesure",
+      "mot_cle": "crm sur mesure",
+      "naturel": "CRM sur mesure",
+      "priorite": 5,
+      "zones": false
+    }
+  ],
+  "adresses": {},
+  "publics": [
+    {
+      "mot_cle": "pme",
+      "naturel": "pour les PME",
+      "service": "automatisation IA"
+    }
+  ],
+  "comparaisons": [
+    {
+      "mot_cle": "freelance ou agence web",
+      "naturel": "Freelance ou agence web"
+    }
+  ],
+  "action": {
+    "libelle": "Discutons de votre projet",
+    "url": "/fr#contact"
+  },
+  "telephone": "",
+  "adresse": "",
+  "hub": "/services/",
+  "schema_type": "ProfessionalService",
+  "fiche_google": "",
+  "profils": [
+    "https://www.linkedin.com/in/lucbaxmannrenard/",
+    "https://github.com/lucbaxmannrenard-coder",
+    "https://www.upwork.com/freelancers/~01f5cdbd2778576923"
+  ],
+  "indexnow_cle": "",
+  "benefices": [
+    "Réponse sous 24 h",
+    "Code écrit à la main, sans no-code"
+  ],
+  "preuves": {
+    "note": {},
+    "avis": [],
+    "chiffres": [],
+    "partenaires": [],
+    "qualifications": [],
+    "realisations": [
+      {
+        "nom": "Cemax Store",
+        "livrable": "E-commerce de nootropiques orienté conversion : catalogue, paiement, gestion des commandes (Next.js, Stripe, Supabase)",
+        "url": "https://cemax-store.com",
+        "resultat": ""
+      },
+      {
+        "nom": "Canaria+",
+        "livrable": "Landing page de lancement du bracelet anti coup de chaleur, avec Provence E.P.I.",
+        "url": "https://canaria.provence-epi.com",
+        "resultat": ""
+      },
+      {
+        "nom": "hydra-agent",
+        "livrable": "Agent e-commerce autonome : veille produit, validation humaine via Telegram, mise en boutique automatique",
+        "url": "",
+        "resultat": ""
+      },
+      {
+        "nom": "Expérience immersive",
+        "livrable": "Vol de caméra piloté au scroll dans un monde généré par IA (Veo 3 + Imagen 4)",
+        "url": "https://portfolio-luc-baxmann.vercel.app",
+        "resultat": ""
+      }
+    ],
+    "locales": {}
+  },
+  "reglementaire": {
+    "orias": "",
+    "categorie": "",
+    "mentions": []
+  },
+  "termes_metier": [
+    "développeur web",
+    "freelance",
+    "développement web",
+    "agence web"
+  ],
+  "horaires": "",
+  "concurrents": [],
+  "metiers_voisins": [
+    "agence de communication",
+    "graphiste",
+    "photographe",
+    "expert-comptable",
+    "consultant en stratégie"
+  ],
+  "lexique": {},
+  "villes_alias": [
+    "marseille",
+    "mrs"
+  ]
+}

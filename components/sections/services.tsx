@@ -10,9 +10,9 @@ export function Services() {
     <section id="services" className="scroll-mt-20 bg-ink text-ink-foreground">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
         <Reveal>
-          <p className="mb-14 text-xs uppercase tracking-[0.12em] text-ink-muted">
+          <h2 className="mb-14 text-xs font-normal uppercase tracking-[0.12em] text-ink-muted">
             {t.services.label}
-          </p>
+          </h2>
         </Reveal>
 
         <Reveal stagger={0.12}>

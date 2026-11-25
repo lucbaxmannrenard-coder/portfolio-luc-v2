@@ -6,31 +6,24 @@ import { dictionaries, type Dictionary, type Lang } from "@/lib/i18n";
 type LanguageContextValue = {
   lang: Lang;
   t: Dictionary;
-  setLang: (lang: Lang) => void;
 };
 
 const LanguageContext = React.createContext<LanguageContextValue | null>(null);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = React.useState<Lang>("en");
-
-  React.useEffect(() => {
-    const saved = window.localStorage.getItem("lang");
-    if (saved === "en" || saved === "fr") setLangState(saved);
-  }, []);
-
-  React.useEffect(() => {
-    document.documentElement.lang = lang;
-  }, [lang]);
-
-  const setLang = React.useCallback((next: Lang) => {
-    setLangState(next);
-    window.localStorage.setItem("lang", next);
-  }, []);
-
+/**
+ * La langue vient de l'URL (`/` = EN, `/fr` = FR), pas d'un état client :
+ * chaque version est rendue côté serveur, donc lisible et indexable par Google.
+ */
+export function LanguageProvider({
+  lang,
+  children,
+}: {
+  lang: Lang;
+  children: React.ReactNode;
+}) {
   const value = React.useMemo(
-    () => ({ lang, t: dictionaries[lang], setLang }),
-    [lang, setLang]
+    () => ({ lang, t: dictionaries[lang] }),
+    [lang]
   );
 
   return (

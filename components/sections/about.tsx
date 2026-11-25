@@ -10,9 +10,9 @@ export function About() {
     <section id="parcours" className="scroll-mt-20">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
         <Reveal>
-          <p className="mb-4 text-xs uppercase tracking-[0.12em] text-muted-foreground">
+          <h2 className="mb-4 text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
             {t.about.label}
-          </p>
+          </h2>
           <p className="max-w-2xl text-xl leading-snug tracking-tight sm:text-2xl">
             {t.about.intro}
           </p>

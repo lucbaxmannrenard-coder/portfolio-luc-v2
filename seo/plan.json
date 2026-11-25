@@ -1,0 +1,346 @@
+{
+  "schema": "seo-playbook/plan@1",
+  "client": "Luc Baxmann",
+  "site": "https://lucbaxmann.com",
+  "genere_le": "2026-11-25",
+  "hub": "/services/",
+  "portee": "locale",
+  "ville_principale": "Marseille",
+  "pages": [
+    {
+      "id": "accueil",
+      "type": "accueil",
+      "mot_cle": "développeur web freelance marseille",
+      "naturel": "Développeur web freelance à Marseille",
+      "url": "/",
+      "title": "",
+      "title_base": "Développeur web freelance à Marseille | … | Luc Baxmann",
+      "h1_base": "Développeur web freelance à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/creation-site-internet-marseille",
+        "/services/automatisation-ia-marseille",
+        "/services/creation-site-e-commerce-marseille"
+      ],
+      "statut": "a_ecrire",
+      "volume": null,
+      "source_volume": null,
+      "notes": [],
+      "ville": "Marseille",
+      "ordre": 1
+    },
+    {
+      "id": "hub",
+      "type": "hub",
+      "mot_cle": null,
+      "naturel": "Nos services",
+      "url": "/services/",
+      "title": "",
+      "title_base": "Nos services | … | Luc Baxmann",
+      "h1_base": "Nos services",
+      "vague": 1,
+      "liens_vers": [
+        "/services/creation-site-internet-marseille",
+        "/services/automatisation-ia-marseille",
+        "/services/creation-site-e-commerce-marseille",
+        "/services/creation-landing-page-marseille",
+        "/services/crm-mesure-marseille",
+        "/services/automatisation-ia-pme-marseille",
+        "/freelance-ou-agence-web"
+      ],
+      "statut": "a_ecrire",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "liste toutes les pages de service ; lié dans le pied de page de tout le site"
+      ],
+      "ordre": 2
+    },
+    {
+      "id": "service-creation-site-internet-marseille",
+      "type": "service",
+      "mot_cle": "création site internet marseille",
+      "naturel": "Création de site internet à Marseille",
+      "url": "/services/creation-site-internet-marseille",
+      "title": "",
+      "title_base": "Création de site internet à Marseille | … | Luc Baxmann",
+      "h1_base": "Création de site internet à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/automatisation-ia-marseille",
+        "/services/creation-site-e-commerce-marseille"
+      ],
+      "statut": "ecrite",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Écrite et contrôlée en local le 2026-11-25 ; passera à « publiee » au déploiement."
+      ],
+      "ville": "Marseille",
+      "service": "création de site internet",
+      "ordre": 3,
+      "date_publication": "2026-11-25"
+    },
+    {
+      "id": "service-automatisation-ia-marseille",
+      "type": "service",
+      "mot_cle": "automatisation ia marseille",
+      "naturel": "Automatisation IA à Marseille",
+      "url": "/services/automatisation-ia-marseille",
+      "title": "",
+      "title_base": "Automatisation IA à Marseille | … | Luc Baxmann",
+      "h1_base": "Automatisation IA à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/creation-site-e-commerce-marseille",
+        "/services/creation-landing-page-marseille"
+      ],
+      "statut": "ecrite",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Écrite et contrôlée en local le 2026-11-25 ; passera à « publiee » au déploiement."
+      ],
+      "ville": "Marseille",
+      "service": "automatisation IA",
+      "ordre": 4,
+      "date_publication": "2026-11-25"
+    },
+    {
+      "id": "service-creation-site-e-commerce-marseille",
+      "type": "service",
+      "mot_cle": "création site e-commerce marseille",
+      "naturel": "Création de site e-commerce à Marseille",
+      "url": "/services/creation-site-e-commerce-marseille",
+      "title": "",
+      "title_base": "Création de site e-commerce à Marseille | … | Luc Baxmann",
+      "h1_base": "Création de site e-commerce à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/creation-landing-page-marseille",
+        "/services/crm-mesure-marseille"
+      ],
+      "statut": "a_ecrire",
+      "volume": null,
+      "source_volume": null,
+      "notes": [],
+      "ville": "Marseille",
+      "service": "site e-commerce",
+      "ordre": 5
+    },
+    {
+      "id": "service-creation-landing-page-marseille",
+      "type": "service",
+      "mot_cle": "création landing page marseille",
+      "naturel": "Création de landing page à Marseille",
+      "url": "/services/creation-landing-page-marseille",
+      "title": "",
+      "title_base": "Création de landing page à Marseille | … | Luc Baxmann",
+      "h1_base": "Création de landing page à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/crm-mesure-marseille",
+        "/services/creation-site-internet-marseille"
+      ],
+      "statut": "a_ecrire",
+      "volume": null,
+      "source_volume": null,
+      "notes": [],
+      "ville": "Marseille",
+      "service": "landing page",
+      "ordre": 6
+    },
+    {
+      "id": "service-crm-mesure-marseille",
+      "type": "service",
+      "mot_cle": "crm sur mesure marseille",
+      "naturel": "CRM sur mesure à Marseille",
+      "url": "/services/crm-mesure-marseille",
+      "title": "",
+      "title_base": "CRM sur mesure à Marseille | … | Luc Baxmann",
+      "h1_base": "CRM sur mesure à Marseille",
+      "vague": 1,
+      "liens_vers": [
+        "/services/",
+        "/services/creation-site-internet-marseille",
+        "/services/automatisation-ia-marseille"
+      ],
+      "statut": "ecartee",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Aucune réalisation CRM publiable dans la fiche (preuve insuffisante) ; recherche non suggérée par Google. À reprendre quand un cas est montrable."
+      ],
+      "ville": "Marseille",
+      "service": "CRM sur mesure",
+      "ordre": 7
+    },
+    {
+      "id": "a-propos",
+      "type": "fixe",
+      "mot_cle": null,
+      "naturel": "À propos",
+      "url": "/a-propos",
+      "title": "",
+      "title_base": "À propos | Luc Baxmann",
+      "h1_base": "À propos",
+      "vague": 1,
+      "liens_vers": [
+        "/services/"
+      ],
+      "statut": "ecartee",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Site one-page : la section #parcours remplit ce rôle ; une page séparée dupliquerait le contenu."
+      ],
+      "ordre": 8
+    },
+    {
+      "id": "contact",
+      "type": "fixe",
+      "mot_cle": null,
+      "naturel": "Contact",
+      "url": "/contact",
+      "title": "",
+      "title_base": "Contact | Luc Baxmann",
+      "h1_base": "Contact",
+      "vague": 1,
+      "liens_vers": [
+        "/services/"
+      ],
+      "statut": "ecartee",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Site one-page : la section #contact (formulaire) existe déjà ; pas de page séparée."
+      ],
+      "ordre": 9
+    },
+    {
+      "id": "mentions-legales",
+      "type": "fixe",
+      "mot_cle": null,
+      "naturel": "Mentions légales",
+      "url": "/mentions-legales",
+      "title": "",
+      "title_base": "Mentions légales | Luc Baxmann",
+      "h1_base": "Mentions légales",
+      "vague": 1,
+      "liens_vers": [
+        "/services/"
+      ],
+      "statut": "decision_ouverte",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Obligatoire pour un pro en France mais exige des faits que seul Luc peut fournir (statut juridique, SIRET, hébergeur, directeur de publication). Voir A-CONFIRMER."
+      ],
+      "ordre": 10
+    },
+    {
+      "id": "confidentialite",
+      "type": "fixe",
+      "mot_cle": null,
+      "naturel": "Politique de confidentialité",
+      "url": "/confidentialite",
+      "title": "",
+      "title_base": "Politique de confidentialité | Luc Baxmann",
+      "h1_base": "Politique de confidentialité",
+      "vague": 1,
+      "liens_vers": [
+        "/services/"
+      ],
+      "statut": "decision_ouverte",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Le formulaire collecte nom/email/message (Supabase + Web3Forms) : page nécessaire, à rédiger avec les faits confirmés par Luc. Voir A-CONFIRMER."
+      ],
+      "ordre": 11
+    },
+    {
+      "id": "public-automatisation-ia-pme-marseille",
+      "type": "public",
+      "mot_cle": "automatisation ia pme marseille",
+      "naturel": "Automatisation IA pour les PME à Marseille",
+      "url": "/services/automatisation-ia-pme-marseille",
+      "title": "",
+      "title_base": "Automatisation IA pour les PME à Marseille | … | Luc Baxmann",
+      "h1_base": "Automatisation IA pour les PME à Marseille",
+      "vague": 3,
+      "liens_vers": [
+        "/services/",
+        "/services/automatisation-ia-marseille"
+      ],
+      "statut": "decision_ouverte",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "Vague 3 : doublonne la page automatisation IA tant que celle-ci n'est pas publiée et mesurée."
+      ],
+      "ville": "Marseille",
+      "service": "automatisation IA",
+      "ordre": 12
+    },
+    {
+      "id": "comparaison-freelance-ou-agence-web",
+      "type": "comparaison",
+      "mot_cle": "freelance ou agence web",
+      "naturel": "Freelance ou agence web",
+      "url": "/freelance-ou-agence-web",
+      "title": "",
+      "title_base": "Freelance ou agence web | … | Luc Baxmann",
+      "h1_base": "Freelance ou agence web",
+      "vague": 3,
+      "liens_vers": [
+        "/services/",
+        "/"
+      ],
+      "statut": "decision_ouverte",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "comparaison de catégories : n'écrire qu'avec des faits vérifiables",
+        "Comparaison de catégories : à écrire seulement avec des faits vérifiables ; vague 3, après les pages de service."
+      ],
+      "ordre": 13
+    },
+    {
+      "id": "avis",
+      "type": "avis",
+      "mot_cle": "luc baxmann avis",
+      "naturel": "Avis sur Luc Baxmann",
+      "url": "/avis",
+      "title": "",
+      "title_base": "Avis sur Luc Baxmann | … | Luc Baxmann",
+      "h1_base": "Avis sur Luc Baxmann",
+      "vague": 3,
+      "liens_vers": [
+        "/services/"
+      ],
+      "statut": "decision_ouverte",
+      "volume": null,
+      "source_volume": null,
+      "notes": [
+        "page d'avis : tous les avis, ou les plus récents dans l'ordre chronologique, sans sélection, chacun avec sa source et sa date ; dire s'ils sont contrôlés et comment (art. L111-7-2) ; lien vers la plateforme",
+        "aucun avis dans la fiche : page à écrire quand le client en aura",
+        "Aucun avis client réel dans la fiche : page à écrire quand il y en aura (règle du playbook)."
+      ],
+      "ordre": 14
+    }
+  ],
+  "ecartes": [],
+  "alertes": [
+    "Volumes de recherche non renseignés : priorités fixées par le métier. Pour les chiffrer gratuitement, voir seo/MOTS-CLES-A-CHIFFRER.md (Keyword Planner et Google Trends)."
+  ],
+  "pages_de_ville": 0,
+  "site_existant": null,
+  "existantes_hors_plan": [],
+  "redirections": []
+}

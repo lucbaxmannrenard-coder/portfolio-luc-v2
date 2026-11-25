@@ -1,10 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/components/language-provider";
+import { pagePath } from "@/lib/seo";
 import type { Lang } from "@/lib/i18n";
 
 export function SiteHeader() {
-  const { lang, t, setLang } = useLanguage();
+  const { lang, t } = useLanguage();
 
   const navItems = [
     { href: "#services", label: t.nav.services },
@@ -39,12 +41,14 @@ export function SiteHeader() {
             role="group"
             aria-label="Language"
           >
+            {/* Vrais liens vers /  et /fr : crawlables, avec hreflang. */}
             {(["en", "fr"] as Lang[]).map((code) => (
-              <button
+              <Link
                 key={code}
-                type="button"
-                onClick={() => setLang(code)}
-                aria-pressed={lang === code}
+                href={pagePath[code]}
+                hrefLang={code}
+                lang={code}
+                aria-current={lang === code ? "true" : undefined}
                 className={`rounded-full px-2.5 py-0.5 text-xs font-medium uppercase transition-colors ${
                   lang === code
                     ? "bg-ink text-ink-foreground"
@@ -52,7 +56,7 @@ export function SiteHeader() {
                 }`}
               >
                 {code}
-              </button>
+              </Link>
             ))}
           </div>
         </div>

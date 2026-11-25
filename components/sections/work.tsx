@@ -57,9 +57,9 @@ export function Work() {
     <section id="realisations" className="scroll-mt-20">
       <div className="mx-auto max-w-7xl px-6 pb-24 sm:px-10">
         <Reveal>
-          <p className="mb-4 text-xs uppercase tracking-[0.12em] text-muted-foreground">
+          <h2 className="mb-4 text-xs font-normal uppercase tracking-[0.12em] text-muted-foreground">
             {t.work.label}
-          </p>
+          </h2>
         </Reveal>
 
         <div ref={ref} className="relative" onMouseLeave={() => setActive(null)}>
@@ -113,7 +113,7 @@ export function Work() {
                     <div className="relative mt-4 aspect-[16/10] overflow-hidden rounded-md border md:hidden">
                       <Image
                         src={project.image}
-                        alt={project.name}
+                        alt={`${project.name} — ${project.category}`}
                         fill
                         sizes="100vw"
                         className="object-cover object-top"
