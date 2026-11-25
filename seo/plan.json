@@ -235,11 +235,12 @@
       "liens_vers": [
         "/services/"
       ],
-      "statut": "decision_ouverte",
+      "statut": "publiee",
       "volume": null,
       "source_volume": null,
       "notes": [
-        "Obligatoire pour un pro en France mais exige des faits que seul Luc peut fournir (statut juridique, SIRET, hébergeur, directeur de publication). Voir A-CONFIRMER."
+        "Obligatoire pour un pro en France mais exige des faits que seul Luc peut fournir (statut juridique, SIRET, hébergeur, directeur de publication). Voir A-CONFIRMER.",
+        "Publiée le 2026-11-25 (TSX, app/(fr)/(info)) avec le SIRET et le statut fournis par Luc ; adresse non publiée (non diffusible au registre)."
       ],
       "ordre": 10
     },
@@ -256,11 +257,12 @@
       "liens_vers": [
         "/services/"
       ],
-      "statut": "decision_ouverte",
+      "statut": "publiee",
       "volume": null,
       "source_volume": null,
       "notes": [
-        "Le formulaire collecte nom/email/message (Supabase + Web3Forms) : page nécessaire, à rédiger avec les faits confirmés par Luc. Voir A-CONFIRMER."
+        "Le formulaire collecte nom/email/message (Supabase + Web3Forms) : page nécessaire, à rédiger avec les faits confirmés par Luc. Voir A-CONFIRMER.",
+        "Publiée le 2026-11-25 (TSX, app/(fr)/(info)) avec le SIRET et le statut fournis par Luc ; adresse non publiée (non diffusible au registre)."
       ],
       "ordre": 11
     },

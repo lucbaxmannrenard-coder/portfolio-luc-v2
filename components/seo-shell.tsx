@@ -53,6 +53,12 @@ export function SeoShell({ children }: { children: React.ReactNode }) {
             <Link href="/fr" className="hover:text-foreground">
               Accueil
             </Link>
+            <Link href="/mentions-legales" className="hover:text-foreground">
+              Mentions légales
+            </Link>
+            <Link href="/confidentialite" className="hover:text-foreground">
+              Confidentialité
+            </Link>
             <Link href="/" hrefLang="en" lang="en" className="hover:text-foreground">
               English
             </Link>

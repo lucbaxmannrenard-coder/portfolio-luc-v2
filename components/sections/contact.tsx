@@ -245,6 +245,22 @@ export function Contact() {
             >
               {lang === "fr" ? "Tous les services" : "Services (en français)"}
             </Link>
+            <Link
+              href="/mentions-legales"
+              hrefLang="fr"
+              lang="fr"
+              className="underline-offset-4 hover:text-ink-foreground hover:underline"
+            >
+              {lang === "fr" ? "Mentions légales" : "Legal notice (FR)"}
+            </Link>
+            <Link
+              href="/confidentialite"
+              hrefLang="fr"
+              lang="fr"
+              className="underline-offset-4 hover:text-ink-foreground hover:underline"
+            >
+              {lang === "fr" ? "Confidentialité" : "Privacy (FR)"}
+            </Link>
             <span>
               {t.contact.localTime} : {time} (Marseille)
             </span>

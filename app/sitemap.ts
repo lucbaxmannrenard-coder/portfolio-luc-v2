@@ -16,5 +16,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/fr`, alternates: { languages } },
     // Hub /services et pages de service (seo/pages/*.md publiées), en français seulement.
     ...seoSitemap(),
+    // Pages d'information (français).
+    { url: `${SITE_URL}/mentions-legales` },
+    { url: `${SITE_URL}/confidentialite` },
   ];
 }
