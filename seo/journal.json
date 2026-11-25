@@ -12,6 +12,12 @@
       "page": "/services/creation-site-internet-marseille",
       "type": "creation",
       "note": "page écrite et contrôlée (page_lint fichier + URL locale conformes) ; non déployée"
+    },
+    {
+      "date": "2026-11-25",
+      "page": "/",
+      "type": "modification",
+      "note": "H1 hero sans <br>, lien hub dans le pied de page, <footer> sémantique, meta Bing, clé IndexNow"
     }
   ]
 }

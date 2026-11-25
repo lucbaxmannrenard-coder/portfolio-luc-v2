@@ -35,7 +35,7 @@
 - Aucun lien interne cassé — aucun
 - Pas de redirections en chaîne — aucune
 - Pas de pages au texte quasi identique — aucun doublon
-- Pas de lenteur réelle — réponse médiane du serveur : 375 ms
+- Pas de lenteur réelle — réponse médiane du serveur : 319 ms
 - Textes alternatifs des images — toutes les images ont un texte alternatif
 - Pas de ressource chargée en http:// — aucune
 
