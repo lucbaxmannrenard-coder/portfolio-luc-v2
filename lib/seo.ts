@@ -74,6 +74,11 @@ export function buildMetadata(lang: Lang): Metadata {
     },
     authors: [{ name: SITE_NAME, url: SITE_URL }],
     creator: SITE_NAME,
+    // Validation de la propriété dans Bing Webmaster Tools (ne pas retirer, sinon la
+    // propriété perd sa validation).
+    verification: {
+      other: { "msvalidate.01": "217E4E351496B9F626BCE6576B25FDD1" },
+    },
   };
 }
 
