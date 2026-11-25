@@ -228,8 +228,8 @@ export function Contact() {
           </div>
         </Reveal>
 
-        {/* Barre footer */}
-        <div className="mt-24 flex flex-col justify-between gap-3 border-t border-ink-foreground/15 pt-6 text-xs text-ink-muted sm:flex-row sm:items-center">
+        {/* Pied de page */}
+        <footer className="mt-24 flex flex-col justify-between gap-3 border-t border-ink-foreground/15 pt-6 text-xs text-ink-muted sm:flex-row sm:items-center">
           <p>
             © {new Date().getFullYear()} Luc Baxmann — {t.footer.tagline}
           </p>
@@ -249,7 +249,7 @@ export function Contact() {
               {t.contact.localTime} : {time} (Marseille)
             </span>
           </p>
-        </div>
+        </footer>
       </div>
     </section>
   );

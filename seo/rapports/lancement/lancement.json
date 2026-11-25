@@ -7,10 +7,10 @@
     "pages": 5,
     "parcours_tronque": false,
     "bloquants": 0,
-    "a_corriger": 3,
+    "a_corriger": 2,
     "a_verifier": 2,
     "pages_du_sitemap": 5,
-    "reponse_mediane_ms": 324
+    "reponse_mediane_ms": 375
   },
   "points": [
     {
@@ -80,13 +80,10 @@
       "id": "h1",
       "titre": "Un seul H1 par page",
       "niveau": "a_corriger",
-      "statut": "echec",
-      "constat": "2 page(s) sans H1 ou avec plusieurs",
-      "correction": "garder exactement un H1, qui dit le sujet de la page",
-      "details": [
-        "/ (2 H1)",
-        "/fr (2 H1)"
-      ]
+      "statut": "ok",
+      "constat": "un H1 par page",
+      "correction": "",
+      "details": []
     },
     {
       "id": "indexabilite",
@@ -192,7 +189,7 @@
       "titre": "Pas de lenteur réelle",
       "niveau": "a_verifier",
       "statut": "ok",
-      "constat": "réponse médiane du serveur : 324 ms",
+      "constat": "réponse médiane du serveur : 375 ms",
       "correction": "",
       "details": []
     },
@@ -230,7 +227,7 @@
       "titre": "Téléphone cliquable et hub des services",
       "niveau": "a_corriger",
       "statut": "echec",
-      "constat": "pas de numéro cliquable (lien tel:) sur l'accueil ; aucun lien vers le hub /services depuis l'accueil",
+      "constat": "pas de numéro cliquable (lien tel:) sur l'accueil ; le hub /services n'est pas lié dans le pied de page",
       "correction": "ajouter le lien vers le hub dans le pied de page de tout le site, et le numéro en lien tel:",
       "details": []
     },
@@ -261,10 +258,9 @@
       "title": "Freelance Web Developer & AI Automation — Luc Baxmann",
       "meta_description": "Freelance web developer in Marseille building fast, conversion-focused websites and custom AI automations for small businesses. Remote worldwide.",
       "h1": [
-        "Freelance Web Developer",
-        "& AI Automation"
+        "Freelance Web Developer & AI Automation"
       ],
-      "words": 366,
+      "words": 369,
       "noindex": false,
       "canonical": "https://lucbaxmann.com",
       "canonical_elsewhere": false,
@@ -273,8 +269,8 @@
       "viewport": true,
       "images": 9,
       "images_sans_alt": 0,
-      "ttfb_ms": 334,
-      "bytes": 56647,
+      "ttfb_ms": 214,
+      "bytes": 56837,
       "scripts": 20,
       "empty_root": false,
       "mixed": false,
@@ -289,8 +285,7 @@
       "title": "Développeur web freelance à Marseille — Luc Baxmann",
       "meta_description": "Développeur web freelance à Marseille : sites rapides orientés conversion et automatisations IA sur mesure pour TPE et PME. Remote possible partout.",
       "h1": [
-        "Développeur web freelance",
-        "& automatisation IA"
+        "Développeur web freelance & automatisation IA"
       ],
       "words": 404,
       "noindex": false,
@@ -301,8 +296,8 @@
       "viewport": true,
       "images": 9,
       "images_sans_alt": 0,
-      "ttfb_ms": 332,
-      "bytes": 57755,
+      "ttfb_ms": 309,
+      "bytes": 57829,
       "scripts": 20,
       "empty_root": false,
       "mixed": false,
@@ -313,7 +308,7 @@
     {
       "url": "https://lucbaxmann.com/services",
       "path": "/services",
-      "depth": 2,
+      "depth": 1,
       "title": "Services de développeur web freelance à Marseille | Luc Baxmann",
       "meta_description": "Création de site internet, e-commerce, landing page et automatisation IA sur mesure : toutes les prestations de Luc Baxmann, chacune sur sa page.",
       "h1": [
@@ -328,19 +323,19 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 300,
+      "ttfb_ms": 524,
       "bytes": 16544,
       "scripts": 16,
       "empty_root": false,
       "mixed": false,
       "replies_absents": [],
       "in_sitemap": true,
-      "inlinks": 3
+      "inlinks": 4
     },
     {
       "url": "https://lucbaxmann.com/services/automatisation-ia-marseille",
       "path": "/services/automatisation-ia-marseille",
-      "depth": 3,
+      "depth": 2,
       "title": "Automatisation IA à Marseille | Réponse sous 24 h | Luc Baxmann",
       "meta_description": "Automatisation IA à Marseille : agents et workflows sur mesure, codés à la main et connectés à vos outils. Réponse sous 24 h.",
       "h1": [
@@ -355,7 +350,7 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 324,
+      "ttfb_ms": 375,
       "bytes": 24771,
       "scripts": 20,
       "empty_root": false,
@@ -367,7 +362,7 @@
     {
       "url": "https://lucbaxmann.com/services/creation-site-internet-marseille",
       "path": "/services/creation-site-internet-marseille",
-      "depth": 3,
+      "depth": 2,
       "title": "Création de site internet à Marseille | Réponse sous 24 h | Luc Baxmann",
       "meta_description": "Création de site internet à Marseille : sites d'entreprise, landing pages et e-commerce codés à la main, pensés pour vos clients. Réponse sous 24 h.",
       "h1": [
@@ -382,7 +377,7 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 318,
+      "ttfb_ms": 391,
       "bytes": 25011,
       "scripts": 21,
       "empty_root": false,
