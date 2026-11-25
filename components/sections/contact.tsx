@@ -234,15 +234,17 @@ export function Contact() {
             © {new Date().getFullYear()} Luc Baxmann — {t.footer.tagline}
           </p>
           <p className="flex flex-wrap items-center gap-x-5 gap-y-1">
-            {/* Les pages de service sont en français : lien dans le pied de page de /fr uniquement. */}
-            {lang === "fr" && (
-              <Link
-                href="/services"
-                className="underline-offset-4 hover:text-ink-foreground hover:underline"
-              >
-                Tous les services
-              </Link>
-            )}
+            {/* Les pages de service sont en français : le lien reste visible dans les deux
+                versions (hreflang/lang renseignés) pour que l'accueil, la page la plus
+                liée, transmette de l'autorité au hub. */}
+            <Link
+              href="/services"
+              hrefLang="fr"
+              lang="fr"
+              className="underline-offset-4 hover:text-ink-foreground hover:underline"
+            >
+              {lang === "fr" ? "Tous les services" : "Services (en français)"}
+            </Link>
             <span>
               {t.contact.localTime} : {time} (Marseille)
             </span>

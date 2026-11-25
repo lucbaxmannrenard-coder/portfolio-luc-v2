@@ -1,0 +1,446 @@
+{
+  "schema": "seo-playbook/lancement@1",
+  "url": "https://lucbaxmann.com",
+  "date": "2026-11-25",
+  "fatal": "",
+  "resume": {
+    "pages": 5,
+    "parcours_tronque": false,
+    "bloquants": 0,
+    "a_corriger": 3,
+    "a_verifier": 2,
+    "pages_du_sitemap": 5,
+    "reponse_mediane_ms": 324
+  },
+  "points": [
+    {
+      "id": "https",
+      "titre": "HTTPS et version unique du site",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "HTTPS actif, une seule version du site",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "robots",
+      "titre": "robots.txt ouvert",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "présent, ouvert, sitemap déclaré",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "robots_ia",
+      "titre": "Robots d'IA autorisés dans robots.txt",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucun robot d'IA interdit",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "acces_ia",
+      "titre": "Accès des robots d'IA (pare-feu)",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "l'accueil répond aux signatures de GPTBot, OAI-SearchBot, ClaudeBot et PerplexityBot",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "sitemap",
+      "titre": "Sitemap",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "5 adresses",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "titles",
+      "titre": "Un title sur chaque page, sans doublon",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "5 pages, titles tous présents et distincts",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "meta_descriptions",
+      "titre": "Meta descriptions",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "présentes partout",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "h1",
+      "titre": "Un seul H1 par page",
+      "niveau": "a_corriger",
+      "statut": "echec",
+      "constat": "2 page(s) sans H1 ou avec plusieurs",
+      "correction": "garder exactement un H1, qui dit le sujet de la page",
+      "details": [
+        "/ (2 H1)",
+        "/fr (2 H1)"
+      ]
+    },
+    {
+      "id": "indexabilite",
+      "titre": "Pages indexables",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "aucun noindex, balises canoniques cohérentes",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "rendu_serveur",
+      "titre": "Texte présent dans le HTML brut",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "le texte des pages est dans le HTML reçu",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "replies_absents",
+      "titre": "Texte des blocs repliés présent dans le HTML",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucun bloc replié vide dans le HTML",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "profondeur",
+      "titre": "Toute page à trois clics au plus de l'accueil",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucune page à plus de trois clics",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "orphelines",
+      "titre": "Aucune page orpheline",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "toutes les pages du sitemap reçoivent un lien",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "sitemap_redirections",
+      "titre": "Adresses du sitemap sans redirection",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "chaque adresse du sitemap répond directement",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "sitemap_complet",
+      "titre": "Pages indexables présentes dans le sitemap",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "toutes présentes",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "vraie_404",
+      "titre": "Une adresse inexistante renvoie 404",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "code 404",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "liens_casses",
+      "titre": "Aucun lien interne cassé",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucun",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "redirections",
+      "titre": "Pas de redirections en chaîne",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "aucune",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "doublons",
+      "titre": "Pas de pages au texte quasi identique",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucun doublon",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "lenteur",
+      "titre": "Pas de lenteur réelle",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "réponse médiane du serveur : 324 ms",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "images",
+      "titre": "Textes alternatifs des images",
+      "niveau": "a_verifier",
+      "statut": "ok",
+      "constat": "toutes les images ont un texte alternatif",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "langue_mobile",
+      "titre": "Langue déclarée et affichage mobile",
+      "niveau": "a_verifier",
+      "statut": "echec",
+      "constat": "lang=\"en\" sur l'accueil, viewport présent ; 1 page(s) dont la langue déclarée ne correspond pas",
+      "correction": "déclarer sur chaque page la langue de son texte (<html lang=\"fr\">, \"en\" sous /en/) et la balise meta viewport",
+      "details": [
+        "/ : lang=\"en\", attendu « fr »"
+      ]
+    },
+    {
+      "id": "contenu_mixte",
+      "titre": "Pas de ressource chargée en http://",
+      "niveau": "a_corriger",
+      "statut": "ok",
+      "constat": "aucune",
+      "correction": "",
+      "details": []
+    },
+    {
+      "id": "local",
+      "titre": "Téléphone cliquable et hub des services",
+      "niveau": "a_corriger",
+      "statut": "echec",
+      "constat": "pas de numéro cliquable (lien tel:) sur l'accueil ; aucun lien vers le hub /services depuis l'accueil",
+      "correction": "ajouter le lien vers le hub dans le pied de page de tout le site, et le numéro en lien tel:",
+      "details": []
+    },
+    {
+      "id": "donnees_locales",
+      "titre": "Données structurées de l'entreprise",
+      "niveau": "a_verifier",
+      "statut": "echec",
+      "constat": "aucun bloc d'entreprise avec adresse et téléphone",
+      "correction": "poser un bloc LocalBusiness : utile et peu coûteux, jamais prioritaire (/seo schema)",
+      "details": []
+    },
+    {
+      "id": "pages_legales",
+      "titre": "Pages légales liées",
+      "niveau": "a_corriger",
+      "statut": "echec",
+      "constat": "lien manquant : mentions légales, politique de confidentialité",
+      "correction": "publier et lier ces pages dans le pied de page (obligation légale en France)",
+      "details": []
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://lucbaxmann.com",
+      "path": "/",
+      "depth": 0,
+      "title": "Freelance Web Developer & AI Automation — Luc Baxmann",
+      "meta_description": "Freelance web developer in Marseille building fast, conversion-focused websites and custom AI automations for small businesses. Remote worldwide.",
+      "h1": [
+        "Freelance Web Developer",
+        "& AI Automation"
+      ],
+      "words": 366,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "en",
+      "viewport": true,
+      "images": 9,
+      "images_sans_alt": 0,
+      "ttfb_ms": 334,
+      "bytes": 56647,
+      "scripts": 20,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 4
+    },
+    {
+      "url": "https://lucbaxmann.com/fr",
+      "path": "/fr",
+      "depth": 1,
+      "title": "Développeur web freelance à Marseille — Luc Baxmann",
+      "meta_description": "Développeur web freelance à Marseille : sites rapides orientés conversion et automatisations IA sur mesure pour TPE et PME. Remote possible partout.",
+      "h1": [
+        "Développeur web freelance",
+        "& automatisation IA"
+      ],
+      "words": 404,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/fr",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 9,
+      "images_sans_alt": 0,
+      "ttfb_ms": 332,
+      "bytes": 57755,
+      "scripts": 20,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 4
+    },
+    {
+      "url": "https://lucbaxmann.com/services",
+      "path": "/services",
+      "depth": 2,
+      "title": "Services de développeur web freelance à Marseille | Luc Baxmann",
+      "meta_description": "Création de site internet, e-commerce, landing page et automatisation IA sur mesure : toutes les prestations de Luc Baxmann, chacune sur sa page.",
+      "h1": [
+        "Services de développeur web freelance à Marseille"
+      ],
+      "words": 50,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/services",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 0,
+      "images_sans_alt": 0,
+      "ttfb_ms": 300,
+      "bytes": 16544,
+      "scripts": 16,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 3
+    },
+    {
+      "url": "https://lucbaxmann.com/services/automatisation-ia-marseille",
+      "path": "/services/automatisation-ia-marseille",
+      "depth": 3,
+      "title": "Automatisation IA à Marseille | Réponse sous 24 h | Luc Baxmann",
+      "meta_description": "Automatisation IA à Marseille : agents et workflows sur mesure, codés à la main et connectés à vos outils. Réponse sous 24 h.",
+      "h1": [
+        "Automatisation IA à Marseille : des agents et des workflows branchés sur vos outils"
+      ],
+      "words": 446,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/services/automatisation-ia-marseille",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 0,
+      "images_sans_alt": 0,
+      "ttfb_ms": 324,
+      "bytes": 24771,
+      "scripts": 20,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 2
+    },
+    {
+      "url": "https://lucbaxmann.com/services/creation-site-internet-marseille",
+      "path": "/services/creation-site-internet-marseille",
+      "depth": 3,
+      "title": "Création de site internet à Marseille | Réponse sous 24 h | Luc Baxmann",
+      "meta_description": "Création de site internet à Marseille : sites d'entreprise, landing pages et e-commerce codés à la main, pensés pour vos clients. Réponse sous 24 h.",
+      "h1": [
+        "Création de site internet à Marseille : un site pensé pour transformer vos visiteurs en clients"
+      ],
+      "words": 405,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/services/creation-site-internet-marseille",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 0,
+      "images_sans_alt": 0,
+      "ttfb_ms": 318,
+      "bytes": 25011,
+      "scripts": 21,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 2
+    }
+  ],
+  "manuel": [
+    {
+      "theme": "Google Search Console",
+      "taches": [
+        "Propriété créée et validée (propriété de domaine de préférence)",
+        "Sitemap soumis",
+        "Page d'accueil inspectée, indexation demandée",
+        "Compte de service ajouté comme utilisateur (references/search-console-api.md)"
+      ]
+    },
+    {
+      "theme": "Bing Webmaster Tools",
+      "taches": [
+        "Site déclaré (import depuis Search Console)"
+      ]
+    },
+    {
+      "theme": "Mesure",
+      "taches": [
+        "Outil de statistiques posé",
+        "Clics sur le téléphone et envois de formulaire suivis"
+      ]
+    },
+    {
+      "theme": "Fiche Google",
+      "taches": [
+        "Fiche revendiquée et remplie entièrement",
+        "Chaque service ajouté, avec un lien vers sa page",
+        "Filtre de messagerie sur les modifications de fiche"
+      ]
+    },
+    {
+      "theme": "Premiers liens",
+      "taches": [
+        "Trois à cinq annuaires du métier ou de la ville",
+        "Deux partenaires de métiers voisins sollicités"
+      ]
+    },
+    {
+      "theme": "Avis",
+      "taches": [
+        "Lien de dépôt d'avis créé et envoyé à tous les clients récents, sans tri"
+      ]
+    },
+    {
+      "theme": "Hébergement",
+      "taches": [
+        "Si Cloudflare ou pare-feu : blocage des robots d'IA désactivé"
+      ]
+    }
+  ]
+}

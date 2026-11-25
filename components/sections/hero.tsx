@@ -82,9 +82,8 @@ export function Hero() {
         <div className="hero-item max-w-md pt-6 sm:pt-0">
           <ArrowDownRight className="mb-4 size-7 text-muted-foreground" aria-hidden />
           <h1 className="text-2xl font-normal leading-snug tracking-tight sm:text-3xl">
-            {t.hero.role[0]}
-            <br />
-            {t.hero.role[1]}
+            <span className="block">{t.hero.role[0]}</span>{" "}
+            <span className="block">{t.hero.role[1]}</span>
           </h1>
           <p className="mt-5 flex items-center gap-2 text-sm text-muted-foreground">
             <span className="relative flex size-2">
