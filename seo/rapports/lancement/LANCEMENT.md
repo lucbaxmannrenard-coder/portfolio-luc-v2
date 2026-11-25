@@ -1,13 +1,11 @@
 # Contrôle de lancement — https://lucbaxmann.com
 
-2026-11-25 · 5 pages parcourues sans JavaScript · verdict : **À CORRIGER** (0 bloquant(s), 2 à corriger, 2 à vérifier)
+2026-11-25 · 7 pages parcourues sans JavaScript · verdict : **À CORRIGER** (0 bloquant(s), 1 à corriger, 2 à vérifier)
 
 ## À traiter
 
 - **[À corriger] Téléphone cliquable et hub des services** — pas de numéro cliquable (lien tel:) sur l'accueil ; le hub /services n'est pas lié dans le pied de page.
   - Correction : ajouter le lien vers le hub dans le pied de page de tout le site, et le numéro en lien tel:.
-- **[À corriger] Pages légales liées** — lien manquant : mentions légales, politique de confidentialité.
-  - Correction : publier et lier ces pages dans le pied de page (obligation légale en France).
 - **[À vérifier] Langue déclarée et affichage mobile** — lang="en" sur l'accueil, viewport présent ; 1 page(s) dont la langue déclarée ne correspond pas.
   - Correction : déclarer sur chaque page la langue de son texte (<html lang="fr">, "en" sous /en/) et la balise meta viewport.
   - / : lang="en", attendu « fr »
@@ -20,8 +18,8 @@
 - robots.txt ouvert — présent, ouvert, sitemap déclaré
 - Robots d'IA autorisés dans robots.txt — aucun robot d'IA interdit
 - Accès des robots d'IA (pare-feu) — l'accueil répond aux signatures de GPTBot, OAI-SearchBot, ClaudeBot et PerplexityBot
-- Sitemap — 5 adresses
-- Un title sur chaque page, sans doublon — 5 pages, titles tous présents et distincts
+- Sitemap — 7 adresses
+- Un title sur chaque page, sans doublon — 7 pages, titles tous présents et distincts
 - Meta descriptions — présentes partout
 - Un seul H1 par page — un H1 par page
 - Pages indexables — aucun noindex, balises canoniques cohérentes
@@ -35,17 +33,20 @@
 - Aucun lien interne cassé — aucun
 - Pas de redirections en chaîne — aucune
 - Pas de pages au texte quasi identique — aucun doublon
-- Pas de lenteur réelle — réponse médiane du serveur : 319 ms
+- Pas de lenteur réelle — réponse médiane du serveur : 222 ms
 - Textes alternatifs des images — toutes les images ont un texte alternatif
 - Pas de ressource chargée en http:// — aucune
+- Pages légales liées — mentions légales et confidentialité liées
 
 ## Pages parcourues
 
 | Page | Clics depuis l'accueil | Mots | H1 | Dans le sitemap | Liens reçus |
 |---|---|---|---|---|---|
-| `/` | 0 | 369 | 1 | oui | 4 |
-| `/fr` | 1 | 404 | 1 | oui | 4 |
-| `/services` | 1 | 50 | 1 | oui | 4 |
+| `/` | 0 | 374 | 1 | oui | 6 |
+| `/confidentialite` | 1 | 371 | 1 | oui | 6 |
+| `/fr` | 1 | 405 | 1 | oui | 6 |
+| `/mentions-legales` | 1 | 209 | 1 | oui | 6 |
+| `/services` | 1 | 50 | 1 | oui | 6 |
 | `/services/automatisation-ia-marseille` | 2 | 446 | 1 | oui | 2 |
 | `/services/creation-site-internet-marseille` | 2 | 405 | 1 | oui | 2 |
 

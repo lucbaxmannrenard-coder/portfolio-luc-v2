@@ -4,13 +4,13 @@
   "date": "2026-11-25",
   "fatal": "",
   "resume": {
-    "pages": 5,
+    "pages": 7,
     "parcours_tronque": false,
     "bloquants": 0,
-    "a_corriger": 2,
+    "a_corriger": 1,
     "a_verifier": 2,
-    "pages_du_sitemap": 5,
-    "reponse_mediane_ms": 319
+    "pages_du_sitemap": 7,
+    "reponse_mediane_ms": 222
   },
   "points": [
     {
@@ -54,7 +54,7 @@
       "titre": "Sitemap",
       "niveau": "a_corriger",
       "statut": "ok",
-      "constat": "5 adresses",
+      "constat": "7 adresses",
       "correction": "",
       "details": []
     },
@@ -63,7 +63,7 @@
       "titre": "Un title sur chaque page, sans doublon",
       "niveau": "a_corriger",
       "statut": "ok",
-      "constat": "5 pages, titles tous présents et distincts",
+      "constat": "7 pages, titles tous présents et distincts",
       "correction": "",
       "details": []
     },
@@ -189,7 +189,7 @@
       "titre": "Pas de lenteur réelle",
       "niveau": "a_verifier",
       "statut": "ok",
-      "constat": "réponse médiane du serveur : 319 ms",
+      "constat": "réponse médiane du serveur : 222 ms",
       "correction": "",
       "details": []
     },
@@ -244,9 +244,9 @@
       "id": "pages_legales",
       "titre": "Pages légales liées",
       "niveau": "a_corriger",
-      "statut": "echec",
-      "constat": "lien manquant : mentions légales, politique de confidentialité",
-      "correction": "publier et lier ces pages dans le pied de page (obligation légale en France)",
+      "statut": "ok",
+      "constat": "mentions légales et confidentialité liées",
+      "correction": "",
       "details": []
     }
   ],
@@ -260,7 +260,7 @@
       "h1": [
         "Freelance Web Developer & AI Automation"
       ],
-      "words": 369,
+      "words": 374,
       "noindex": false,
       "canonical": "https://lucbaxmann.com",
       "canonical_elsewhere": false,
@@ -269,14 +269,41 @@
       "viewport": true,
       "images": 9,
       "images_sans_alt": 0,
-      "ttfb_ms": 484,
-      "bytes": 56843,
+      "ttfb_ms": 222,
+      "bytes": 57121,
       "scripts": 20,
       "empty_root": false,
       "mixed": false,
       "replies_absents": [],
       "in_sitemap": true,
-      "inlinks": 4
+      "inlinks": 6
+    },
+    {
+      "url": "https://lucbaxmann.com/confidentialite",
+      "path": "/confidentialite",
+      "depth": 1,
+      "title": "Politique de confidentialité | Luc Baxmann",
+      "meta_description": "Quelles données le site lucbaxmann.com collecte, pourquoi, combien de temps, et comment exercer vos droits.",
+      "h1": [
+        "Politique de confidentialité"
+      ],
+      "words": 371,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/confidentialite",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 0,
+      "images_sans_alt": 0,
+      "ttfb_ms": 84,
+      "bytes": 22850,
+      "scripts": 19,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 6
     },
     {
       "url": "https://lucbaxmann.com/fr",
@@ -287,7 +314,7 @@
       "h1": [
         "Développeur web freelance & automatisation IA"
       ],
-      "words": 404,
+      "words": 405,
       "noindex": false,
       "canonical": "https://lucbaxmann.com/fr",
       "canonical_elsewhere": false,
@@ -296,14 +323,41 @@
       "viewport": true,
       "images": 9,
       "images_sans_alt": 0,
-      "ttfb_ms": 89,
-      "bytes": 57835,
+      "ttfb_ms": 168,
+      "bytes": 58117,
       "scripts": 20,
       "empty_root": false,
       "mixed": false,
       "replies_absents": [],
       "in_sitemap": true,
-      "inlinks": 4
+      "inlinks": 6
+    },
+    {
+      "url": "https://lucbaxmann.com/mentions-legales",
+      "path": "/mentions-legales",
+      "depth": 1,
+      "title": "Mentions légales | Luc Baxmann",
+      "meta_description": "Mentions légales du site lucbaxmann.com : éditeur, SIRET, hébergeur et propriété intellectuelle.",
+      "h1": [
+        "Mentions légales"
+      ],
+      "words": 209,
+      "noindex": false,
+      "canonical": "https://lucbaxmann.com/mentions-legales",
+      "canonical_elsewhere": false,
+      "canonical_other_host": false,
+      "lang": "fr",
+      "viewport": true,
+      "images": 0,
+      "images_sans_alt": 0,
+      "ttfb_ms": 103,
+      "bytes": 20069,
+      "scripts": 18,
+      "empty_root": false,
+      "mixed": false,
+      "replies_absents": [],
+      "in_sitemap": true,
+      "inlinks": 6
     },
     {
       "url": "https://lucbaxmann.com/services",
@@ -323,14 +377,14 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 486,
-      "bytes": 16544,
+      "ttfb_ms": 312,
+      "bytes": 16983,
       "scripts": 16,
       "empty_root": false,
       "mixed": false,
       "replies_absents": [],
       "in_sitemap": true,
-      "inlinks": 4
+      "inlinks": 6
     },
     {
       "url": "https://lucbaxmann.com/services/automatisation-ia-marseille",
@@ -350,8 +404,8 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 312,
-      "bytes": 24771,
+      "ttfb_ms": 309,
+      "bytes": 25183,
       "scripts": 20,
       "empty_root": false,
       "mixed": false,
@@ -377,8 +431,8 @@
       "viewport": true,
       "images": 0,
       "images_sans_alt": 0,
-      "ttfb_ms": 319,
-      "bytes": 25011,
+      "ttfb_ms": 326,
+      "bytes": 25423,
       "scripts": 21,
       "empty_root": false,
       "mixed": false,
