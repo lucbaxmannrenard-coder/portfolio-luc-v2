@@ -16,6 +16,19 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  /**
+   * /noe est une page de candidature privée : elle ne doit pas être indexée. L'en-tête
+   * s'applique à la réponse servie sous lucbaxmann.com (le robots.txt ne la bloque pas
+   * exprès : Google doit pouvoir lire le noindex).
+   */
+  async headers() {
+    const noindex = [{ key: "X-Robots-Tag", value: "noindex, nofollow" }];
+    return [
+      { source: "/noe", headers: noindex },
+      { source: "/noe/:path*", headers: noindex },
+    ];
+  },
 };
 
 export default nextConfig;

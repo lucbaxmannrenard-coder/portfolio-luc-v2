@@ -72,11 +72,11 @@
         "/services/automatisation-ia-marseille",
         "/services/creation-site-e-commerce-marseille"
       ],
-      "statut": "ecrite",
+      "statut": "publiee",
       "volume": null,
       "source_volume": null,
       "notes": [
-        "Écrite et contrôlée en local le 2026-11-25 ; passera à « publiee » au déploiement."
+        "Déployée le 2026-11-25 (commit bd817ff) ; page_lint --url sur la production : conforme."
       ],
       "ville": "Marseille",
       "service": "création de site internet",
@@ -98,11 +98,11 @@
         "/services/creation-site-e-commerce-marseille",
         "/services/creation-landing-page-marseille"
       ],
-      "statut": "ecrite",
+      "statut": "publiee",
       "volume": null,
       "source_volume": null,
       "notes": [
-        "Écrite et contrôlée en local le 2026-11-25 ; passera à « publiee » au déploiement."
+        "Déployée le 2026-11-25 (commit bd817ff) ; page_lint --url sur la production : conforme."
       ],
       "ville": "Marseille",
       "service": "automatisation IA",
